@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và điều khiển trên form</title>
+</head>
+<style>
+    table, td {
+        border: 1px solid black;
+    }
+    table {
+        border-collapse: collapse;
+        background-color: lightgreen;
+    }
+    tr td:first-child {
+        color: #008a41;
+        font-weight: 500;
+    }
+</style>
+<body style=" font-size: 18px;">
+    <h2 style="color: #008a41; text-align: center;">Đăng ký du lịch</h2>
+    <table style="width: 100%">
+        <tr>
+            <td>Họ và tên</td>
+            <td>
+                <input style="width: 341px; height: 21px;" type="text" value="Dương Tiến Đạt">
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td>
+                <input style="width: 250px; height: 21px;" type="text" value="Hiền Lương, Hạ Hòa, Phú Thọ">
+            </td>
+        </tr>
+        <tr>
+            <td>Phone number</td>
+            <td>
+                <input style="height: 21px;" type="text" value="0986862170">
+            </td>
+        </tr>
+        <tr>
+            <td>Khách Việt Nam</td>
+            <td>
+                <input type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td>Chọn tour</td>
+            <td>
+                <select style="width: 230px; height: 21px; font-size: 15px" name="work" id="work">
+                    <option value="a">Nha Trang - Đà Lạt</option>
+                    <option value="b">Nhân viên bán hàng</option>
+                    <option value="c">Lập trình viên</option>
+                    <option value="d">Xây dựng</option>
+                    <option value="e">...</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Phương tiện</td>
+            <td>
+                <input type="radio" name="1" id="1">
+                <label for="1">Máy bay</label>
+                <input type="radio" name="1" id="2">
+                <label for="2">Ô tô</label>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" colspan="2">
+                <div style="width: 360px; height: 45px; margin: 0 auto; margin-top: 18px; border: 1px solid violet; padding-top: 20px; position: relative;">
+                    <p style="position: absolute; margin-top: -31px; margin-left: 24px; background-color: lightgreen;">Chọn sản phẩm tham gia</p>
+                    <label for="">Người lớn</label>
+                    <input style="width: 36px" type="text" value="6">
+                    <label for="">Trẻ em</label>
+                    <input style="width: 36px;" type="text" value="4">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Ghi chú thêm</td>
+            <td>
+                <select style="font-size: 14px; width: 300px; height: 40px;" name="cost" id="cost" size="2">
+                    <option value="">Có 2 trẻ em dưới 6 tuổi</option>
+                    <option value="">Có 2 người ăn chay</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input style="font-size: 15px;" type="submit" value="Đăng nhập">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="color: red; text-align: center;">Bạn đã đăng ký thành công!!!</td>
+        </tr>
+    </table>
+</body>
+</html>

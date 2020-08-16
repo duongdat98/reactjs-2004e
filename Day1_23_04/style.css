@@ -1,0 +1,52 @@
+p[class] {
+    font-style: italic;
+}
+
+p[title="para2"] {
+    color: greenyellow;
+    font-size: 30px;
+    background-color: seagreen;
+}
+
+p[title~="no"] {
+    font-size: 30px;
+}
+
+p[title^="no"] {
+    border: 2px solid red;
+    background-color: saddlebrown;
+}
+
+p[title|="a"] {
+    color: royalblue;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.grand-parent.parent{
+    color: red;
+}
+
+a:visited {
+    color: orchid;
+}
+
+a:active {
+    color: orangered;
+}
+
+a:hover {
+    color: seagreen;
+}
+
+input:focus {
+    border: 1px solid rgb(105, 128, 0);
+}
+
+#elements-psuedo h4:first-child {
+    color: red;
+}
+
+#elements-psuedo h4:last-child {
+    color: blue;
+}

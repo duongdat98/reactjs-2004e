@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table, td {
+        border: 1px solid black;
+    }
+
+    table {
+        border-collapse: collapse;
+        background-color: #add8e6;
+    }
+
+    h2 {
+        margin-left: 80px;
+    }
+</style>
+<body>
+    <h2>Đăng nhập</h2>
+    <table>
+        <tr>
+            <td>Mã người dùng</td>
+            <td>
+                <input type="text" id="name">
+            </td>
+        </tr>
+        <tr>
+            <td>Mật khẩu</td>
+            <td>
+                <input type="password">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button onclick="addEvent" id="submit">Đăng nhập</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"></td>
+        </tr>
+    </table>
+    <script>
+        let input = document.getElementById('name');
+        let printButton = document.getElementById('submit');
+        let printButton = function() {
+            if(input.value !== "") {
+                
+            }
+        }
+    </script>
+</body>
+</html>

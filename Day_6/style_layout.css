@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.062);
+}
+
+nav {
+    background-color: aquamarine;
+}
+
+section aside {
+    background-color: chartreuse;
+    height: 100px;
+}
+
+section article {
+    height: 100px;
+    background-color: chocolate;
+}
+
+section {
+    /* display: flex; */
+}
+
+footer {
+    background-color: coral;
+    height: 100px;
+}
